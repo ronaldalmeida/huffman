@@ -1,0 +1,28 @@
+/* ALMEIDA RONALD cs610 PP 7118 */
+
+
+
+
+How to Run:
+
+Compile Compressing(henc7118.java) and Decompressing(hdec7118.java) code files to create respective classes
+
+1> Javac henc7118.java
+2> Javac hdec7118.java
+
+Run Compressing(henc7118) class with filename as argument
+
+3> Java henc7118 filename
+
+Run Decompressing(hdec7118) class with filename of compressed file as argument
+
+4> Java hdec7118 filename.huf
+
+Note: The compressed and decompressed file can be found in same directory as the code.
+
+
+
+Bugs:  
+
+The program compresses text, microsoft documents, certain image formats(jpg) and certain audio video formats(wav, mp3, mov)
+but cannot efficiently compress pdf, executable files and certain audio video formats.
